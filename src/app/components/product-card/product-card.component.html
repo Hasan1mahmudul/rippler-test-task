@@ -1,0 +1,13 @@
+<div class="product-card">
+    <img [src]="product.src" alt="product image" class="p-img">
+    <span class="p-price">RRP: {{ product.price | currency:'GBP':'symbol' }}</span>
+    <div class="p-brand-title">
+      <span class="p-brand">{{ product.brand }}  
+      </span>
+      <span> </span>
+      <span class="p-details">{{ product.title }}</span>
+    </div>
+    <span class="p-size">Size: {{ product.size }}</span>
+    <span class="p-rent-price">{{ product.rent_price | currency:'GBP':'symbol' }} Rental</span>
+</div>
+  

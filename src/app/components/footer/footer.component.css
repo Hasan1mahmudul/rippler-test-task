@@ -1,0 +1,8 @@
+footer{
+    height: 12px; 
+    padding: 16px;
+    /* background-color: red; */
+    font-family: 'Sora', sans-serif;
+    font-size: var(--font-size-regular);
+    color: #898989;
+}
